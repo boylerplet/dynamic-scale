@@ -1,0 +1,10 @@
+@font-face {
+    font-family: squarefont;
+    src: url(./AldotheApache.ttf);
+}
+
+.textStyles {
+    font-family: squarefont;
+    font: normal 50px/50px squarefont;
+    text-align: center;
+}
