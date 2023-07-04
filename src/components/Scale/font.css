@@ -1,10 +1,7 @@
-@font-face {
-    font-family: squarefont;
-    src: url(./AldotheApache.ttf);
-}
-
 .textStyles {
-    font-family: squarefont;
-    font: normal 50px/50px squarefont;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Aldo the Apache', sans-serif;
     text-align: center;
 }

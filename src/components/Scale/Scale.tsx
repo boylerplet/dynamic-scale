@@ -163,30 +163,44 @@ function Scale({
 	}
 
 	return (
-		<div
-			style={{
-				aspectRatio: half ? 634 / 304 : 904 / 304,
-				width: width,
-				position: 'absolute',
-				textAlign: 'center',
-				display: 'flex',
-				alignItems: 'center',
-				justifyContent: 'center',
-			}}
-		>
-			<svg
-				style={{ position: 'absolute', height: '100%', width: '100%' }}
-				id="scale"
-				width={half ? 634 : 904}
-				height="304"
-				viewBox={`0 0 ${half ? 634 : 904} 304`}
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
+		<>
+			<style>
+				@import url('https://fonts.cdnfonts.com/css/aldo-the-apache');
+			</style>
+			<div
+				style={{
+					aspectRatio: half ? 634 / 304 : 904 / 304,
+					width: width,
+					position: 'absolute',
+					textAlign: 'center',
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					fontWeight: '400',
+					fontSize: '50px',
+					lineHeight: '50px',
+					fontFamily: "'Aldo the Apache', sans-serif",
+				}}
 			>
-				{fillWhite()}
-				{fillBlack()}
-			</svg>
-		</div>
+				<svg
+					style={{
+						textAlign: 'center',
+						position: 'absolute',
+						height: '100%',
+						width: '100%',
+					}}
+					id="scale"
+					width={half ? 634 : 904}
+					height="304"
+					viewBox={`0 0 ${half ? 634 : 904} 304`}
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					{fillWhite()}
+					{fillBlack()}
+				</svg>
+			</div>
+		</>
 	);
 }
 
