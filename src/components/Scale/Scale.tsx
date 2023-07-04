@@ -30,7 +30,7 @@ function Scale({
 	labels = false,
 	half = true,
 	start = 'C',
-	pressed = [],
+	pressed = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	color_white = '#ff0055',
 	color_black = '#aa0044',
 	width,
