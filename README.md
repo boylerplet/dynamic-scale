@@ -2,6 +2,8 @@
 
 This is repository exports a react component which will render a piano scale with variable parameters as input. It is highly customisable. It is generated dynamically by passing as props the required parameters using html `<svg>` component.
 
+The component is bundled into an NPM package using rollup
+
 ## Example Screenshots
 
 ![image](https://github.com/amrutwali/dynamic-scale/assets/54875908/d8c4d7c9-6a2d-4e87-ae37-c7a54160b3f1)
