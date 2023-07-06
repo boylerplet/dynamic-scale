@@ -171,7 +171,6 @@ function Scale({
 				style={{
 					aspectRatio: half ? 634 / 304 : 904 / 304,
 					width: width,
-					position: 'absolute',
 					textAlign: 'center',
 					display: 'flex',
 					alignItems: 'center',
