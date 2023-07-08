@@ -77,3 +77,6 @@ Visit the website <https://dynamic-scale-frontend.vercel.app/> to customize the 
 - _`width`_ * : **String**
 
   Sets the width of the finally rendered component. This parameter corresponds to a _in-line jsx_ width.
+---
+
+Frontend of the Scale Maker is linked here <https://github.com/amrutwali/dynamic-scale-frontend>
