@@ -4,6 +4,8 @@ This is repository exports a react component which will render a piano scale wit
 
 The component is bundled into an NPM package using rollup
 
+Visit the website <https://dynamic-scale-frontend.vercel.app/> to customize the component and obtain the code for the same.
+
 ## Example Screenshots
 
 ![image](https://github.com/amrutwali/dynamic-scale/assets/54875908/d8c4d7c9-6a2d-4e87-ae37-c7a54160b3f1)
@@ -21,7 +23,7 @@ The component is bundled into an NPM package using rollup
     labels = true
     half = false
     start = 'C'
-    pressed = [0,1,2,3,4,5,6,7,8]
+    pressed = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     color_black = '#ff0055' 
     color_white = '#aa0044'
     width = '600px'
