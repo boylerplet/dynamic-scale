@@ -18,14 +18,14 @@ Visit the website <https://dynamic-scale-frontend.vercel.app/> to customize the 
 
 `<Scale />` will be an independent standalone function that will genereate the required piano scale using all the input parameters
 
-```jsx
+```typescript
 <Scale
     labels = true
     half = false
     start = 'C'
     pressed = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    color_black = '#ff0055' 
-    color_white = '#aa0044'
+    color_black = '#AA0044' 
+    color_white = '#FF0055'
     width = '600px'
 />
 ```
@@ -66,13 +66,13 @@ Visit the website <https://dynamic-scale-frontend.vercel.app/> to customize the 
 
   Will set the _pressed_ black keys to be the color passed to this parameter.  
 
-  **Default** : `#FF0055`
+  **Default** : `#AA0044`
 ---
 - _`color_white`_ : **String**  
  
   Will set the _pressed_ white keys to be the color passed to this parameter.  
 
-  **Default** : `#AA0044`
+  **Default** : `#FF0055`
 ---
 - _`width`_ * : **String**
 
