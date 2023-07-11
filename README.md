@@ -32,7 +32,7 @@ Visit the website <https://dynamic-scale-frontend.vercel.app/> to customize the 
 
 ## All Props and Types:
 
-> Labels flagged with `*` Are mandatory
+> Props flagged with `*` Are mandatory
 
 - _`labels`_ : **Boolean**  
 
